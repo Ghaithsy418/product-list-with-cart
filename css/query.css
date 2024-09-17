@@ -1,0 +1,46 @@
+@media(max-width:64.5rem){
+    .products{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:49.5rem){
+    html{
+        font-size: 55%;
+    }
+    body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .the-cart{
+        margin-bottom: 2.4rem;
+    }
+
+    .all-product-btn{
+        transform: translate(-16.5rem,18.5rem);
+    }
+
+    .confirmed-part{
+        bottom: 0;
+        width: 60%;
+        margin-bottom: 20rem;
+        position: fixed;
+    }
+}
+
+@media(max-width:29.3rem){
+    html{
+        font-size: 50%;
+    }
+    .products{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .all-product-btn{
+        transform: translate(-17rem,18.5rem);
+    }
+}

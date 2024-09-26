@@ -80,6 +80,11 @@ body{
     height: 20rem;
     border-radius: 0.4rem;
     margin-bottom: 2.4rem;
+    transition: all 0.3s;
+}
+
+.product-image:hover{
+    transform: scale(1.04);
 }
 
 .btn{
